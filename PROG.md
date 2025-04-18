@@ -11,7 +11,8 @@ URLs you can access in the browser are determied by how the files and folders ar
 1. all routes must be in the app directory
 2. route files be named with the `.js` `.ts` `.jsx` or `.tsx` extension
 3. each folder represents a route segment, and the folder name becomes part of the URL path
-4. nested folders create nested routes, allowing for a hierarchical structure
+4. nested subfolders can create nested routes, allowing for a hierarchical structure for simple usecases
+5. dynamic routes can be created using square brackets in the file name (e.g., `[id].js`), enabling the creation of flexible URL patterns that adapt to dynamic data, such as user IDs or product slugs, The dynamic segments are accessible in the page component through the `params` property (Promise), enabling seamless integration with dynamic content.
 
 ## API routes
 
