@@ -6,6 +6,12 @@ _NextJS simplifies the process of building production-ready web applications wit
 
 Automatically generates routes with file based routing system, without the need of any 3rd party library installations or configurations. This allows developers to create routes simply by creating files and folders in the `pages` directory, making it easy to manage and organize the application's structure.
 
+URLs you can access in the browser are determied by how the files and folders are organized.
+
+1. all routes must be in the app directory
+2. route files be named with the `.js` `.ts` `.jsx` or `.tsx` extension
+3. each folder represents a route segment, and the folder name becomes part of the URL path
+
 ## API routes
 
 Backend APIs within the same nextjs application allowing seamless integration with frontend react components of the application
