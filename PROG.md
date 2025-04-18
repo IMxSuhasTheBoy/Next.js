@@ -11,6 +11,7 @@ URLs you can access in the browser are determied by how the files and folders ar
 1. all routes must be in the app directory
 2. route files be named with the `.js` `.ts` `.jsx` or `.tsx` extension
 3. each folder represents a route segment, and the folder name becomes part of the URL path
+4. nested folders create nested routes, allowing for a hierarchical structure
 
 ## API routes
 
