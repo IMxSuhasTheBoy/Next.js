@@ -14,7 +14,8 @@ _URLs you can access in the browser are determied by how the files and folders a
 4. nested subfolders can create nested routes, allowing for a hierarchical structure for simple usecases
 5. dynamic routes can be created using square brackets in the file name (e.g., `[id].js`), enabling the creation of flexible URL patterns that adapt to dynamic data, such as user IDs or product slugs, The dynamic segments are accessible in the page component through the `params` property (Promise), enabling seamless integration with dynamic content.
 6. nested dynamic routes allowing for a more complex dynamic URL structure.
-7. catch-all routes can be created using double square brackets (e.g., `[[...slug]].js`), allowing for more complex URL structures and the ability to handle multiple segments in a single route.
+7. catch-all routes can be created using square brackets (e.g., `[...slug].js`), allowing for more complex URL structures and the ability to handle multiple segments in a single route.
+8. optional catch-all segments routes can be created using double square brackets (e.g., `[[...slug]]`), for the case of route that may or may not have a parameter.
 
 ## API routes
 
